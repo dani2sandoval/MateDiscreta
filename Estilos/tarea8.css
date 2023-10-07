@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Quicksand&display=swap');
+
+
+body {
+    font-family: 'Carter One', cursive;
+    font-family: 'Quicksand', sans-serif;
+    background-image: url('/src/matematicas-tumblr-gif-10.gif');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+.contenedor {
+    text-align: center;
+    color: #29323c;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    width: 80%; 
+    max-width: 800px; 
+    height: 150vh; 
+    margin: auto; 
+}
+
+h2 {
+    font-size: 48px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #29323c;
+}
+
+.boton-inicio {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #29323c;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+.boton-inicio:hover {
+    background-color: #1d252d;
+}
+
+
+  
+  
