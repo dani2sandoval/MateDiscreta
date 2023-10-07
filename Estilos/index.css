@@ -137,3 +137,23 @@ h1 {
     background-color: #34495E; 
     
   }
+
+  .boton-secundario {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #29323c;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.boton-secundario:hover {
+    background-color: #29323c;
+    color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3)
+}
